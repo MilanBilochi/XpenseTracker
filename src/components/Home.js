@@ -1,4 +1,5 @@
 import '../components/Home.css'
+import BottomExpenseCmp from './BottomExpenseCmp';
 import TopExpenseCmp from './TopExpenseCmp';
 const Home = () => {
     return(
@@ -7,6 +8,7 @@ const Home = () => {
                 Expense Tracker
             </header>
             <TopExpenseCmp />
+            <BottomExpenseCmp />
         </div>
     )
 }

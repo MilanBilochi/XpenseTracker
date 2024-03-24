@@ -55,3 +55,19 @@
     background-color: greenyellow;
     background-image: linear-gradient(to left, red 0%, white 110%);
 }
+.bottom-expense {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bottom-expense-left {
+    background-color: white;
+    height: 600px;
+    width: 1200px;
+}
+.bottom-expense-right {
+    background-color: white;
+    height: 600px;
+    width: 850px;
+}
