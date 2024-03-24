@@ -1,0 +1,57 @@
+.top-expense {
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    background-color: rgb(136, 134, 134);
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.activity-card {
+    height: 300px;
+    width: 500px;
+    margin: 1em;
+    background-color: rgb(207, 207, 207);
+    border-radius: 1rem;
+}
+.pie-chart {
+    background-color: transparent;
+}
+.pie-chart-color-code-box {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.pie-chart-color-code {
+    margin-right: 0.3rem;
+    height: 20px;
+    width: 40px;
+}
+.color-container {
+    display: flex;
+    max-width: 80%;
+}
+.card-button-income {
+    padding: 0.8rem;
+    width: 50%;
+    border-radius: 1rem;
+    border-width: 0;
+    background-color: greenyellow;
+    background-image: linear-gradient(to left, greenyellow 0%, white 110%);
+}
+.card-button-expense {
+    padding: 0.8rem;
+    width: 50%;
+    border-radius: 1rem;
+    border-width: 0;
+    background-color: greenyellow;
+    background-image: linear-gradient(to left, red 0%, white 110%);
+}
